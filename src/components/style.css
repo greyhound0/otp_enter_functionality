@@ -72,6 +72,19 @@ input::-webkit-inner-spin-button {
 button {
   font-weight: 700;
   cursor: pointer;
+  padding: 12px 60px;
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  background-color: rgb(33, 33, 128);
+
+  color: white;
+}
+.primaryButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .popup-otpWrapper-actions > button {

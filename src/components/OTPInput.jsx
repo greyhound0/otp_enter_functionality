@@ -117,9 +117,11 @@ export const OTPInput = () => {
           </div>
         </div>
       ) : (
-        <button className="button" onClick={() => handleClick()}>
-          Click to Enter OTP
-        </button>
+        <div className="primaryButton">
+          <button className="button" onClick={() => handleClick()}>
+            Click to Enter OTP
+          </button>
+        </div>
       )}
 
       <div></div>

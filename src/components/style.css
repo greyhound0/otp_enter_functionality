@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Lato:wght@300&family=Montserrat:wght@300;400&family=Roboto:wght@100&family=Source+Sans+Pro:wght@300&display=swap");
+
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 .input {
   border-top: transparent;
@@ -11,7 +14,6 @@
   height: 30px;
   font-size: 2rem;
   text-align: center;
-  /* margin-top: 400px; */
 }
 
 input::-webkit-outer-spin-button,
@@ -25,7 +27,6 @@ input::-webkit-inner-spin-button {
 }
 
 .popup {
-  /* background-color: aliceblue; */
   width: 530px;
   margin: 0 auto;
 
@@ -103,7 +104,3 @@ button {
 
   color: white;
 }
-/* 
-.popup-otpWrapper-inputArea-field {
-  height: fit-content;
-} */

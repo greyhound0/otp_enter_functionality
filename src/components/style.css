@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+.input {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid black;
+  margin-right: 30px;
+  width: 50px;
+  height: 30px;
+  font-size: 2rem;
+  text-align: center;
+  /* margin-top: 400px; */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.popup {
+  /* background-color: aliceblue; */
+  width: 530px;
+  margin: 0 auto;
+
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+
+.popup-heading {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.popup-otpWrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.popup-otpWrapper > div {
+  margin: 24px auto;
+}
+.popup-otpWrapper-phoneNumber {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 500;
+}
+.popup-otpWrapper-inputArea {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.popup-otpWrapper-actions {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+button {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.popup-otpWrapper-actions > button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #009ae0;
+}
+
+.popup-otpWrapper-submit > button {
+  padding: 12px 60px;
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  background-color: green;
+
+  color: white;
+}
+/* 
+.popup-otpWrapper-inputArea-field {
+  height: fit-content;
+} */
